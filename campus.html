@@ -1,0 +1,116 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="container.css" rel="stylesheet" type="text/css" />
+  </head>
+    <body>
+    <div class="container">
+
+    <!-- Full-width images with number text -->
+    <div class="mySlides">
+      <div class="numbertext">1 / 6</div>
+        <img src="biz.jpg" style="width:60%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 6</div>
+        <img src="40th.jpg" style="width:60%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 6</div>
+        <img src="sc.jpg" style="width:60%" style="height:60%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 6</div>
+        <img src="nrc.jpg" style="width:60%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">5 / 6</div>
+        <img src="rh.jpg" style="width:60%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">6 / 6</div>
+        <img src="uc.jpg" style="width:60%">
+    </div>
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Image text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <!-- Thumbnail images -->
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="biz.jpg" style="width:100%" onclick="currentSlide(1)" alt="NUS Business School">
+      </div>
+      <div class="column"> 
+        <img class="demo cursor" src="40th.jpg" style="width:100%" onclick="currentSlide(2)" alt="NUS Students' Sports Club">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="sc.jpg" style="width:100%" onclick="currentSlide(3)" alt="NUS Sports Camp 2019">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="nrc.jpg" style="width:100%" onclick="currentSlide(4)" alt="NUS Netball Recreational Club">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="rh.jpg" style="width:100%" onclick="currentSlide(5)" alt="Raffles Hall">
+      </div> 
+      <div class="column">
+        <img class="demo cursor" src="uc.jpg" style="width:100%" onclick="currentSlide(6)" alt="NUS Union Camp 2019">
+      </div>
+    </div>
+  </div>
+  <p></p>
+  <div id="text">
+    <h5>NUS Students' Sports Club</h5>
+    <p>General Secretary (Deputy)</p>       
+    <p>Oct 2019-Present</p>
+      <div id="lists">
+        <ul>
+          <li>Administered logistics and administrative matters of the projects and member clubs under Sports Club</li>
+          <li>Implement and coordinated club’s procedures from information management to booking facilities</li> 
+          <li>Collaborated with NUS Sports Office as the interface for various sporting events and projects</li>
+        </ul> 
+      </div>
+  </div>
+  <p></p>
+  <div id="text2">
+    <h5>NUS Sports Camp 2019</h5>
+    <p>Admin & Finance (Executive)</p>       
+    <p>Jan 2019-July 2019</p>
+    <div id="lists2">
+      <ul>
+        <li>Budgeted income and expenses of camp and reduced the budget deficit by 63.5% from previous year</li>
+        <li>Procured claims from different departments so to ensure success of camp financially</li> 
+        <li>Compiled and publish forms to collate and record participants’ particulars</li>
+      </ul> 
+    </div>
+  </div>
+  <p></p>
+  <div id="text2">
+      <h5>NUS Netball Recreational Club</h5>
+      <p>Marketing Cell (Deputy)</p>       
+      <p>Dec 2018- Jun 2019</p>
+      <div id="lists2">
+        <ul>
+          <li>Networked with companies for the provision of event shirts and banners</li>
+          <li>Secured a total worth of $30,000 in-kind sponsorship through pitching to clients and sponsorship emails</li> 
+          <li>Developed a Recreational Category which tripled NUS participation rates</li>
+        </ul> 
+      </div>
+    </div>  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js" integrity="sha256-T/f7Sju1ZfNNfBh7skWn0idlCBcI3RwdLSS4/I7NQKQ=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js" integrity="sha256-T/f7Sju1ZfNNfBh7skWn0idlCBcI3RwdLSS4/I7NQKQ=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    </body>
+</html>

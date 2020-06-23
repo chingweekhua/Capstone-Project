@@ -1,0 +1,122 @@
+#name {
+  font-family: initial ;
+  font-size: 40px ;
+  color: lavenderblush ;
+  font-weight: bold ;
+  text-shadow: 2px 2px 2px black;
+  padding-left: 0.3cm;
+}
+
+
+h2 {
+  text-decoration: underline ;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 2px 2px gainsboro ;
+  padding-top: 0.3cm ;
+  font-size: 18pt ;
+  color: darkblue
+}
+
+#aside {
+  display: flex ;
+  flex-direction: row ;
+  background-color: lavender ;
+  padding-bottom: 0.5px
+}
+#hero {
+  background-image: url(background.jpg);
+  background-repeat:repeat;
+  background-size:cover;
+  height: 1800px ;
+  position: relative ;
+  background-attachment: fixed ;
+  padding-top: 0.5px ;
+}
+#para1 {
+  margin-left: 20px ;
+  font-family: 'Times New Roman', Times, serif ;
+  padding-top: 1cm
+}
+
+#top {
+  padding-top: 0.3cm ;
+  padding-left: 0.2cm
+}
+
+#links {
+  text-align: center ;
+  word-spacing: 0.3cm
+}
+
+#pg1-btn {
+  font-family: initial ;
+  font-weight: bold ;
+}
+
+#pg2-btn {
+  font-family: initial ;
+  font-weight: bold
+}
+
+#campus {
+  font-family: initial ;
+  font-weight: bold
+}
+
+#pg4-btn {
+  font-family: initial ;
+  font-weight: bold
+}
+
+
+.image:hover {
+  border: 4px black solid ;
+  padding: 3px
+}
+
+/* psuedo-selector */
+#interest li a:hover {
+  background-color: lavender 
+}
+
+#page1 {
+  text-align: center ;
+}
+
+#pg1part1 {
+  line-height: 0.2cm;
+  padding-top: 0.2cm ;
+  font-weight: bold ;
+}
+
+#pg1part1-1{
+  line-height: 0.2cm;
+  padding-top: 0.4cm;
+  font-weight: bold ;
+}
+
+#work1 {
+  line-height: 0.2cm;
+  padding-top: 0.2cm ;
+  font-weight: bold ;
+}
+
+#work2 {
+  line-height: 0.2cm;
+  padding-top: 0.2cm ;
+  font-weight: bold ;
+}
+
+.bullet { 
+  font-family: initial ;
+  font-size: 11pt
+}
+
+@media only screen and (max-width:680px) {#hero {
+  background-image: url(background.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+  width: 100% ;
+  position: relative
+  }
+}

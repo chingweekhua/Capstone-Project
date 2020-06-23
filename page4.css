@@ -1,0 +1,62 @@
+.column {
+  float: left;
+  width: 25%;
+}
+
+#pg4top {
+  padding-top: 0.4cm
+}
+
+/* Clear floats after the columns */
+#row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#row{
+  text-align: center ;
+  line-height:1cm ;
+  color:  dodgerblue ;
+  background-color: lavender ;
+  /* background-size: contain ; */
+  margin: auto ;
+}
+
+#background {
+  background-image: url(contact.jpg) ;
+  height: auto ;
+  width: 100% ;
+  background-size: cover ; 
+}
+
+#words {
+  padding-top: 150px ;
+  text-align: center;
+  font-family: snell roundhand, cursive ;
+  font-size: 30pt;
+}
+
+#side {
+  display:flex ;
+  /* changing aside from left to right- row-reverse */
+  flex-direction: row;
+}
+
+ 
+@media screen and (max-width: 680px) {
+  .column {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 680px) {
+  .column {
+    width: 100%;
+    padding-top: 0.2cm
+  }
+  #background {
+  background-image: url(contact.jpg) ;
+  background-size: cover 
+  }
+}
